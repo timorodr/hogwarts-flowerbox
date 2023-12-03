@@ -92,19 +92,21 @@
 .tag-container {
     display: flex;
     margin-top: 2rem;
-    width: 80%;
-    justify-content: space-around;
+    width: 70%;
+    justify-content: space-evenly;
     font-family: 'Open Sans', sans-serif;
 }
 .tag{
     background-color: #eeeeee;
-    width: 30%;
-    font-size: 6pt;
-    margin-bottom: 0.5rem;
+    /* width: 30%; */
+    font-size: 7pt;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: .3rem;
+    color: gray;
+    padding:0.3rem
 }
 
 .floral-needs {
