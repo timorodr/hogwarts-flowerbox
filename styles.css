@@ -47,13 +47,12 @@
 
 .product {
     height: 25rem;
-    background-color: blue;
     margin-bottom: 4rem;
+    box-shadow: 2px 1px 30px rgba(0, 0, 0, 0.1);
 }
 
 .product-photo {
-    background-color: aqua;
-    height: 300px
+    height: 300px;
 }
 
 
@@ -126,8 +125,8 @@
 }
 
 .flower-text {
-    margin-left: 35rem;
-    margin-bottom: 10rem;
+    margin-left: 55rem;
+    margin-bottom: 9rem;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -188,8 +187,9 @@
     color: var(--blue)
 }
 
-.footer-midtext {
+.footer-midtext, .footer-righttext {
     font-weight: 900;
+    font-size: 13pt
 }
 
 .footer-midcontainer, .footer-rightcontainer {
@@ -197,7 +197,8 @@
 }
 
 .footer-midtag, .footer-righttag {
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.6rem;
     font-family: 'Open Sans', sans-serif;
-    font-size: 10pt;
+    font-size: 9pt;
+    color: gray
 }
