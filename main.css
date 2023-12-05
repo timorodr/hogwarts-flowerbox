@@ -1,0 +1,27 @@
+body {
+    background-color: #209a6f;
+    text-align: center;
+}
+
+.owl {
+    font-family: fantasy;
+}
+
+.secret {
+    opacity: 0.5;
+}
+
+li {
+    list-style-type: none;
+}
+
+table, th, td {
+    border: black 1px solid;
+    margin: auto;
+    background-color: burlywood;
+}
+
+.cabbage {
+    color:CHARTREUSE;
+}
+
